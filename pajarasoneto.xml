@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>La pájara en el ojo ajeno </title>
+            <author>Alejandra Pizarnik</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>
+               Texto codificado por Liliana Castillo
+            </p>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Texto publicado originalmente en 1897
+               Biblioteca Nacional de Colombia 2013  https://bit.ly/3RObXI1</p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="es">
+      <body>
+         
+         <div xml:id="primer_soneto">
+            
+            <lg>
+               <l>
+                  <choice>
+                     <orig>¿Porqué</orig>
+                     <corr type= "ortografía">Por qué</corr>
+                  </choice>
+                  (me dicen) (me dicen) tu harpa se rebaja </l>
+               <l>Julio este textículo les parece joda.</l>
+               <l>Solamente vos sabés que el más mínimo chiste se crea en momentos en que la vida <foreign xml:lang="fr">est à lauteur de la morte.</foreign> 
+                  Muy tuya Alejandra.</l>
+               <l>Julio fui tan abajo. Pero no hay fondo</l>
+               <l>Julio, creo que no tolero más las perras palabras</l>
+               <l>La locura, la muerte. 
+                  Nadja no escribe. 
+                  Don Quijote tampoco.</l>
+               <l>Julio, odio a Artaud (mentira) porque no quisiera
+                  entender tan sospechosamente bien sus
+                  posibilidades de la imposibilidad.</l>
+            </lg>
+         </div>
+         
+         <div xml:id="segundo_parrafo">
+            
+            <lg>
+               <l>Me excedí, supongo. Y he perdido, viejo amigo de tu</l>
+               <l>vieja Alejandra que tiene miedo de todo salvo</l>
+               <l>(ahora, oh Julio) de la locura y de la muerte.
+                  (Hace dos meses que estoy en el hospital. 
+                  Excesos y luego intento de suicidio que fracasó, hélas)</l> 
+            </lg>
+         </div>
+         
+         
+         <div xml:id="tercer_parrafo">    
+            <lg>
+               
+               <l>PS En el hospital aprendo a convivir 
+                  con los últimos</l>
+               <l>desechos. Mi mejor amiga es una sirvienta de 18</l>
+               <l>años que mató a su hijo. Empecé a leer Diarios. Te</l>
+               <l>apruebo mucho políticamente. Tu poema de</l>
+               <l><unclear><gap reason='indecipherable'></gap></unclear>Panorama es grande porque me hizo bien (lo leí en el</l>
+               <l>hospital).</l>
+               
+            </lg>
+         </div>
+         
+         
+         
+         <div xml:id= "fecha">
+            <p>
+               <date when="1897-05-15">
+                  Mayo 15, 1897</date>
+               <l>«A mi Julio»
+                  Con cariño, Alejandra.</l>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
+
